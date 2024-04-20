@@ -1,6 +1,16 @@
 Day-1
 Css font-weight practice ques 
 
+ques = 
+
+1- Create a simple webpage with a heading, paragraph, and list. Experiment with different font weights for each text element to understand their visual impact.
+2- Design a navigation menu using HTML lists (<ul> and <li>). Apply different font weights to the menu items to distinguish between main links and sublinks.
+3- Build a contact form with input fields for name, email, and message. Use CSS to style the form labels with a lighter font weight to differentiate them from the input fields.
+4- Develop a pricing table for a subscription-based service. Apply varying font weights to the plan names, prices, and features to highlight the differences between plans.
+5- Construct a product showcase section with thumbnails and descriptions. Apply a bold font weight to the product names to draw attention to them while keeping the descriptions lighter for readability.
+
+-------------------------------------------------------------------------------------------------------------
+
 html = 
 
 <!DOCTYPE html>
