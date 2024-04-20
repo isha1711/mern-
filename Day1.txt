@@ -36,7 +36,7 @@ html =
            <li><a style="font-weight: lighter;" href="#">business</a></li>
         </ul>
     </nav>
-<form>
+<form>  
     <label style="font-weight: lighter;">Enter Name:</label>
     <input type="text" name="name" style="font-weight: 700;">
     <label style="font-weight: lighter;">Enter Email:</label>
