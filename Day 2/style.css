@@ -259,7 +259,7 @@ li:hover {
     border-radius: 10px;
 }
 
-#sea {
+/* #sea {
     background-color: white;
     padding: 10px 32px;
     color: #818181;
@@ -267,7 +267,7 @@ li:hover {
 }
 .search{
     border-radius: 40%;
-}
+} */
 
 #title h2{
     color: black;
@@ -311,13 +311,13 @@ li:hover {
 }
 
 
-input#trendSearch {
+/* input#trendSearch {
     border: none;
     background-color: whitesmoke;
     /* top: 22%;
     position: relative; */
-    margin-left: 102px;
-}
+    /* margin-left: 102px; */
+ 
 
 div#subtitle1 {
     display: flex;
@@ -578,4 +578,32 @@ ul#persons1 {
 
 .seccontainer::-webkit-scrollbar  {
     display: none;
+}
+
+input#trendSearch {
+    border: none;
+    background-color: whitesmoke;
+    top: 22%;
+    position: relative;
+    outline: none;
+}
+
+#sea {
+    color: #818181;
+    position: sticky;
+}
+.search {
+    border-radius: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+input#trendSearch:focus{
+    border: none;
+}
+
+.search:focus{
+    border : 2px solid #1DA1F2;
 }
