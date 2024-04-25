@@ -1,0 +1,276 @@
+* {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#app{
+    display: flex;
+}
+
+div#main {
+    width: 100%;
+}
+
+
+#searchHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div#searchbar {
+    display: flex;
+}
+
+
+div#profileActions {
+    display: flex;
+}
+
+
+ul{
+    list-style: none;
+}
+
+div.PAE {
+    padding: 10px;
+}
+
+ul#trendlist > li{
+    padding: 10px;
+    padding-top: 2px;
+}
+
+ul#videoslist {
+    display: flex;
+}
+
+
+li.videoPost {
+    width: 30%;
+}
+
+
+img#videoImage {
+    height: 190px;
+    width: 95%;
+    border-radius: 20px;
+}
+.videoPost>div {
+    display: flex;
+    margin: 10px;
+}
+
+
+img#logoImage {
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+div#View {
+    color: grey;
+}
+
+div#channelName {
+    color: grey;
+}
+
+ul#second {
+    display: flex;
+}
+
+ul#thirdln {
+    display: flex;
+}
+
+li#trendlabel {
+    border: 2px solid #2c2c2c;
+    border-radius: 7px;
+    background-color: #2c2c2c;
+    padding: 10px 10px;
+    margin: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+li#trendlabel:hover {
+    background-color: #2c2c2c;
+    color: gray;
+}
+
+ul#trendlist {
+    display: flex;
+    list-style: none;
+    overflow: scroll;
+}
+
+ul#trendlist::-webkit-scrollbar {
+    display: none;
+    
+}
+
+div#content {
+    overflow: scroll;
+}
+
+#header{
+    overflow: scroll;
+}
+
+#header::-webkit-scrollbar {
+    display: none;
+    
+}
+
+div#profilelogo img {
+    height: 29px;
+    width: 33px;
+    border-radius: 21px;
+}
+
+div#searchinput {
+    border: none;
+    background-color: #2c2c2c;
+    top: 22%;
+    position: relative;
+    outline: none;
+    padding: 6px 153px;
+    left: 173px;
+    top: 6px;
+    border-radius: 32px;
+    width: 20vw;
+    height: 4vh;
+}
+
+input#searchplace {
+    background-color: #2c2c2c;
+    border: none;
+    position: relative;
+    left: -125px;
+    top: -8px;
+    font-size: 20px;
+}
+
+button#searchplc {
+    background-color: #2c2c2c;
+    position: relative;
+    left: 147px;
+    top: -3px;
+    height: 34px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+input#searchplace:focus{
+    border: none;
+}
+
+input#searchplace:focus{
+    border : 2px solid #1DA1F2;
+} 
+
+ul#fourthline {
+    display: flex;
+}
+
+
+img#utube {
+    height: 30px;
+    position: relative;
+    top: 11px;
+    left: 1px;
+}
+
+ul#shortsi {
+    display: flex;
+    padding: 0px 0px 0px 19px;
+    height: 48px;
+}
+
+li#shrt {
+    padding: 0px 24px;
+    position: relative;
+    top: -11px;
+    left: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shorts {
+    border: 2px solid #2c2c2c;
+    border-left: none;
+    border-right: none;
+}
+
+ul#rel {
+    display: flex;
+}
+
+li#reellist img {
+    height: 403px;
+    width: 229px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+div#searchAudio {
+    /* padding: 13px 192px; */
+    border: 1px solid #2c2c2c;
+    border-radius: 69px;
+    position: relative;
+    left: 195px;
+    top: 0px;
+    padding: 12px 13px;
+    cursor: pointer;
+}
+
+li#logo1 img {
+    height: 46px;
+    padding: 4px;
+}
+
+ul#logo {
+    display: flex;
+}
+
+li.youlist {
+    padding: 6px;
+}
+
+li#border {
+    border-bottom: 1px solid #2c2c2c;
+    list-style: none;
+}
+
+li.sublist {
+    padding: 5px;
+}
+
+li.explorelist {
+    padding: 4px;
+    white-space: nowrap;
+}
+
+ul#cp li {
+    color: gray;
+}
+
+li#reellist h5 {
+    position: relative;
+    top: -76px;
+    left: 16px;
+    background-color: transparent;
+}
+
+.maincontent{
+    overflow: scroll;
+}
+
+.maincontent::-webkit-scrollbar{
+    overflow: scroll;
+}
+
+.main{
+    position: sticky;
+}
