@@ -8,8 +8,8 @@ const useGoogleSearch = (term) => {
     const fetchData = async () => {
       if (!term) return;
       
-      const API_KEY = 'AIzaSyDQmA972NqHuhLjdZXXcxZcj0YAxgle3ro';
-      const CONTEXT_KEY = '950fabe1a19394447';
+      const API_KEY = 'your_api_key';
+      const CONTEXT_KEY = 'your_context_key';
       const URL = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${term}`;
 
       try {
