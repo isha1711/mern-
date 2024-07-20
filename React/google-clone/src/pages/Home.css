@@ -1,0 +1,107 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: absolute;
+    left: calc(89vw - 10px); 
+}
+
+.header_right a{
+    text-decoration: inherit;
+    color: rgba(0, 0, 0,0.87);
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.book{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-between; */
+   left: 3vw;
+   /* padding: 10px; */
+}
+
+.book a{
+    text-decoration: inherit;
+    color: rgba(0, 0, 0,0.87);
+    font-size: 13px;
+    padding-left: 10px; 
+}
+
+.book a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.book a::before {
+    content: '';
+    display: block;
+    width: 3px;  /* Width of the blue line */
+    height: 70%; /* Height of the blue line */
+    background-color: rgb(174, 231, 243);
+    position: absolute;
+    left: -13px;
+    top: -1px;
+    bottom: 0;
+    border-radius: 8px; /* Rounded corners if needed */
+    margin-top: 4px;
+}
+
+.link{
+    position: relative;
+    right: 7vw;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    cursor: pointer;
+    /* justify-content: space-between; */
+}
+
+.link > .MuiSvgIcon-root {
+    margin-right: 20px;
+    color: rgba(0, 0, 0,0.87) !important
+    
+}
+
+.header_right a:hover {
+    text-decoration: underline;
+} 
+ 
+/* .homebody{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+} */
+.homebody > img {
+    object-fit: contain;
+    height: 92px;
+    align-items: center;
+    position: relative;
+    margin-top: 193px;
+    left: 41vw;
+}
+
+.folder{
+    color: gray;
+}
+
+.searchlab{
+    color: gray;
+}
+
+.appicon{
+    color: gray;
+}
+
+.avatar{
+    color: gray;
+}

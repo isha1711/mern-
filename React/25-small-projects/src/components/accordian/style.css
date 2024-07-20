@@ -1,0 +1,8 @@
+.wrapper {
+    border: 2px solid;
+    width: 40vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #123b9a;
+}

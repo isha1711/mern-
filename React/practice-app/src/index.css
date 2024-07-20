@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  list-style: none;
+  border-radius: 20px;
+  background-color: beige;
+  height: 675px;
+}
+
+.addeddata{
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  width: 600px;
+  height: 188px;
+  background-color: beige;
+}
+
+.add{
+  font-weight: bold;
+  list-style: none;
+  /* position: relative;
+  left: 44vw; */
+  /* border: 2px solid; */
+}
+
+.btn{
+  background-color: rosybrown;
+  font-size: 17px;
+  color: white;
+  border-color: none;
+  border: 1px solid rosybrown;
+  border-radius: 7px;
+  position: relative;
+  top: 10px;
+  left: 47px;
+}
+
+.btn1{
+  background-color: rosybrown;
+  font-size: 17px;
+  color: white;
+  border-color: none;
+  border: 1px solid rosybrown;
+  border-radius: 7px;
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
+
+.storedata{
+  position: relative;
+  left: 47px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.delbtn{
+  background-color: rosybrown;
+  border-color: rosybrown;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}

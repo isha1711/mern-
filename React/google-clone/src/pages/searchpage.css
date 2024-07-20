@@ -1,0 +1,132 @@
+.searchpage_header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 26px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchpage_logo{
+    object-fit: contain;
+    height: 33px;
+    margin-right: 50px;
+    right: -2px;
+    position: relative;
+}
+
+.searchpage_body > .search > .search_input{
+    margin-top: 10px;
+    width: 41vw;
+    margin: unset;
+    max-width: unset;
+    height: 22px;
+    margin: -59px;
+    left: 14vw;
+    position: absolute;
+}
+
+.search_option{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.search_pageright a,
+.search_pageleft a{
+    /* display: flex; */
+    text-decoration: none;
+    color: gray;
+}
+
+.search_pageright ,
+.search_pageleft {
+    display: flex;
+}
+
+.search_pageright{
+    margin-left: 80px;
+}
+
+.search_option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search_option {
+    margin-left: 5px;
+}
+
+.search_options{
+    display: flex;
+    position: relative;
+    top: 18px;
+    right: 4px;
+    font-size: 14px;
+}
+
+.searchPage_result {
+    margin: 40px 0;
+}
+
+.searchPage_result a{
+    color: rgba(0,0,0,0.87);
+    font-size: small;
+    text-decoration: inherit;
+}
+
+.searchPage_result a:hover{
+    text-decoration: underline;
+}
+
+.result{
+max-width: 650px;
+margin-top: -4px;
+margin-left: 174px;
+margin-bottom: 100px;
+height: 600px; /* Adjust height as per your design */
+overflow-y: auto;
+scrollbar-width: none;
+}
+
+.search_image{
+    object-fit: fill;
+    height: 24px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 61px;
+    border: 1px solid grey;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.1);
+   
+}
+
+.searchPage_resultTitle {
+text-decoration: none;
+}
+
+.searchPage_resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2{
+    font-weight: 400;
+    font-size: 21px;
+    color: #1a0dae;
+}
+
+.searchPage_resultSnippet{
+    margin-top: 5px;
+    color: rgba(0,0,0,0.87);
+}
+
+.searchPage_siteName{
+    position: relative;
+    left: 40px;
+    font-size: 14px;
+    color: black;
+    top: 13px;
+    font-weight: 400;
+}
